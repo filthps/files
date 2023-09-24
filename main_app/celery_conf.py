@@ -3,7 +3,7 @@ from django.conf import settings
 from celery import Celery
 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'picasso.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'files.settings')
 os.environ.setdefault('FORKED_BY_MULTIPROCESSING', '1')
 
 
