@@ -136,7 +136,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # REDIS
-REDIS_HOST = 'localhost'
+REDIS_HOST = '127.0.0.1'
 REDIS_PORT = '6379'
 CELERY_IGNORE_RESULT = False
 CELERY_TRACK_STARTED = True

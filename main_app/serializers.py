@@ -5,4 +5,5 @@ from .models import File
 class FileSerializer(serializers.ModelSerializer):
     class Meta:
         model = File
-        fields = ("id", "file", "upload_at", "processed",)
+        fields = ("id", "file", "upload_at", "processed", "type", "body")
+    body = serializers.CharField()
